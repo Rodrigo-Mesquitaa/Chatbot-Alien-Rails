@@ -1,0 +1,70 @@
+<div class='alienmessage' id='1'>
+  <img class='alienprofile' src='https://media.giphy.com/media/r9u2BEXZUzGo/giphy.gif'>
+  <div class='alienchatbox'>
+    <p>Saudações, humano. Meu nome é Luckdown, seu</p>
+    <p>novo alien alquimistic.</p>
+    <p>O que você tem a dizer em nome da humanidade?<p>
+  </div>
+</div>
+
+<div class='selector'>
+  <div class='question'>Como você quer responder?</div>
+  <div class='options'>
+    <a href='#'><div class='first option'>
+      <%=
+      if @array[0] == nil
+        'Admin? Add a message'
+      else
+        @array[0].content
+      end
+      %>
+    </div></a>
+    <a href='#'><div class='second option'>
+      <%=
+      if @array[1] == nil
+        'Admin? Add a message'
+      else
+        @array[1].content
+      end
+      %>
+    </div></a>
+    <a href='#'><div class='third option'>
+      <%=
+      if @array[2] == nil
+        'Admin? Add a message'
+      else
+        @array[2].content
+      end
+      %>
+    </div></a>
+  </div>
+  <div class='options'>
+    <a href='#'><div class='fourth option'>
+      <%=
+      if @array[3] == nil
+        'Admin? Add a message'
+      else
+        @array[3].content
+      end
+      %>
+    </div></a>
+    <a href='#'><div class='fifth option'>
+      <%=
+      if @array[4] == nil
+        'Admin? Add a message'
+      else
+        @array[4].content
+      end
+      %>
+    </div></a>
+    <a href='#'><div class='sixth option'>
+      <%=
+      if @array[5] == nil
+        'Admin? Add a message'
+      else
+        @array[5].content
+      end
+      %>
+    </div></a>
+  </div>
+</div>

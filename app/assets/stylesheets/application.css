@@ -1,0 +1,105 @@
+body {
+    width: 600px;
+    margin: auto;
+    background-color: #fefefe;
+    font-family: monospace;
+  }
+  
+  p {
+    line-height: 7px;
+  }
+  
+  .alienmessage {
+    margin-bottom: 30px;
+    padding: 10px;
+    height: 110px;
+    overflow: hidden;
+  }
+  
+  .alienchatbox {
+    float: right;
+    background-color: #8b9dc3;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    color: #c1f0c1;
+  }
+  
+  .alienprofile {
+    float: left;
+    border: 5px solid #8b9dc3;
+    border-radius: 5px;
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .message {
+    margin-bottom: 30px;
+    padding: 10px;
+    height: 90px;
+    background-color: #dfe3ee;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .chatbox {
+    float: left;
+    background-color: #8b9dc3;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .profile {
+    float: right;
+    border: 5px solid #8b9dc3;
+    border-radius: 5px;
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  .options {
+    padding: 10px;
+    height: 75px;
+    column-count: 3;
+    overflow: hidden;
+  }
+  
+  .option {
+    background-color: #dfe3ee;
+    padding: 20px;
+    height: 35px;
+    border-radius: 5px;
+  }
+  
+  .question {
+    text-align: center;
+  }
+  
+  footer {
+    width: 100%;
+    background-color: #dfe3ee;
+    bottom: 0;
+    left: 0;
+    height: 26px;
+    position: fixed;
+    font-size: 11px;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  footer a:link {
+    text-decoration: none;
+    font-weight: normal;
+  }
+  
+  .selector {
+    padding-bottom: 25px;
+  }
+  

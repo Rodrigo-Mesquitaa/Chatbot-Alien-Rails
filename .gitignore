@@ -1,0 +1,23 @@
+# Veja https://help.github.com/articles/ignoring-files para mais informações sobre como ignorar arquivos.
+#
+# Se você está ignorando arquivos temporários gerados por seu editor de texto
+# ou sistema operacional, você provavelmente deseja adicionar um ignorar global em vez disso:
+# git config --global core.excludesfile '~ / .gitignore_global'
+
+# Ignore a configuração do bundler.
+/.bundle
+
+# Ignore o banco de dados SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore todos os arquivos de log e tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+/node_modules
+/yarn-error.log
+
+.byebug_history
